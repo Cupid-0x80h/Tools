@@ -9,7 +9,7 @@ fi
 # perform the main scan
 
 echo "Starting the NMAP scan on $1"
-nmap -sS -sV -O -T4 "$1"
+nmap -sS -sV -O --script=vuln -vv -T4 "$1"
 
 #check for the scan was complete or not
 if [ $? -eq 0 ]; then
