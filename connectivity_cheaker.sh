@@ -1,7 +1,7 @@
 #!/bin/bash
 
 # List of websites or IPs to check
-targets=("google.com" "github.com" "openai.com" "example.com")
+targets=("google.com" "github.com" "tryhackme.com" "youtube.com")
 
 # Log file to store the results
 log_file="connectivity.log"
